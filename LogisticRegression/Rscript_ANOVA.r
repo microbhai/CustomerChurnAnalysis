@@ -1,3 +1,4 @@
+# This analysis is for understanding the significance of categorical variables, to make determination of what should be included in the model
 # 1.	Read data from the CSV file and rename the relevant columns
 churndata <- read.csv("/Users/ASHA15/Desktop/C/Learn/MS_DataAnalytics_WGU/Term2/D208_PredictiveModeling/Task1/churn_clean.csv")
 names(churndata)[names(churndata) == "Item1"] <- "Timely_response"
